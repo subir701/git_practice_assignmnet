@@ -5,7 +5,7 @@ while(n>0){
   bag+=(n%10);
   n=Math.floor(n/10);
 }
-for(let i=0;i<=bag.length-1;i++){
+for(let i=bag.length-1;i>=0;i--){
   bag1+=bag[i];
 }
 if(bag1 == bag){
