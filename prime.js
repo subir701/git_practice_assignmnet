@@ -3,8 +3,8 @@
 let num=13;
 let count=0;
 // use loop for checking number is prime or not
-for(let i=0 ; i<num ; i++){
-    if(num % i == 1){
+for(let i=1 ; i<=num ; i++){
+    if(num % i == 0){
         count+=1;
     }
 }
